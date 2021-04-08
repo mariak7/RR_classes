@@ -41,7 +41,27 @@ The series was renewed for an eighth season on January 30, 2018.[1] In January 2
 
 
 ```{r}
-data <- read.table(file = "suits data.txt", header = T)
+data.raw <- read.table(file = "suits data.txt", header = T)
+data.raw
+data <- data.raw
+epi <- c('season',rep('a',16))
+for(x in 1:9){epi[x+1]<-paste0('E0',x)}
+for(x in 10:16){epi[x+1]<-paste0('E',x)}
+sea <- rep('a', 9)
+for(x in 1:9){sea[x]<-paste0('S0',x)}
+sea
+
+colnames(data)<-epi
+rownames(data)<-sea
+
 data
+
+data.t <- t(data)[-1,]
+data.t
+```
+
+```{r}
+library(ggplot2)
+ggplot(data.raw, aes(x = Season, y = X1)) + geom_line() + labs(title = 'Suits: U.S. viewers per episode (millions); Season1')
 ```
 
