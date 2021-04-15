@@ -1,0 +1,25 @@
+---
+title: "Presentation trial"
+author: "Maria Kubara"
+date: "15 04 2021"
+output: ioslides_presentation
+options: 
+  incremental: true
+---
+
+# Game of thrones
+
+## Game of Thrones | general info
+
+Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It is an adaptation of *A Song of Ice and Fire*, a series of fantasy novels by George R. R. Martin, the first of which is A Game of Thrones. The show was shot in the United Kingdom, Canada, Croatia, Iceland, Malta, Morocco, and Spain. It premiered on HBO in the United States on April 17, 2011, and concluded on May 19, 2019, with 73 episodes broadcast over eight seasons. 
+
+## Plot
+
+> - Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos. 
+> - The series follows several simultaneous plot lines The first story arc follows a war of succession among competing claimants for control of the Iron Throne of the Seven Kingdoms, with other noble families fighting for independence from the throne. 
+> - The second concerns the exiled scion's actions to reclaim the throne; the third chronicles the threat of the impending winter, as well as the legendary creatures and fierce peoples of the North. 
+
+
+## Cool games of thrones logo: {.smaller .build data-background=Game_of_Thrones_title_card.jpg}
+
+
